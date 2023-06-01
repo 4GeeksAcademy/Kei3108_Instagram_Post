@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Post {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Estilos del encabezado */
+  #Post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-icon {
+    margin-right: 10px;
+  }
+  
+  .user-info {
+    font-weight: bold;
+  }
+  
+  #Post-image img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos del cuerpo del post */
+  .Post-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .Post-icon i {
+    margin-right: 10px;
+  }
+  
+  .text-1 {
+    margin-bottom: 10px;
+  }
+  
+  .text-2 {
+    color: #888;
+  }
+  
+  /* Estilos de FontAwesome */
+  .fa {
+    font-size: 38px;
+  }
+  
+  .fa-heart-o {
+    color: #ed4956;
+  }
+  
+  .fa-bookmark-o {
+    color: #333;
+    margin-left: auto;
+  }
+  
+  .fa-ellipsis-v {
+    margin-left: auto;
+  }
